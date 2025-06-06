@@ -1,17 +1,35 @@
-# machine_learning_project-unsupervised-learning
+# Machine Learning Project - Unsupervised Learning
+
+### Goal
+Gain data insight and communicate these using appropriate visualizations.
 
 ## Project Outcomes
-- Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
-### Duration:
-Approximately 1 hour and 40 minutes
+- Performed unsupervised learning techniques on a wholesale data dataset
+- Included: exploratory data analysis (EDA) and pre-processing, KMeans clustering, hierarchical clustering, and principal component analysis (PCA)
+
 ### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
+Utilized unsupervised learning methods on a real-world dataset, using data visualization tools to effectively communicate insights derived from the analysis. The dataset, titled 'Wholesale Data', included details about different products sold by a grocery store.
 
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
+Project involved:
+-	*EDA and pre-processing*
+    - imported and cleaned data, 
+    - analyzed and visualized relationships between different variables, 
+    - explored if there were any missing values, 
+    - opportunities for feature engineering, and 
+    - handled outliers
+-	*Unsupervised learning*
+    - performed k-means clustering, hierarchical clustering, and PCA to identify patterns and group similar data points together
+    - determined optimal number of clusters
+    - communicated insights gained through EDA/data visualization
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
+### Results 
+- Paiplot indicated positive correlation between 'Fresh' and 'Milk', 'Detergents_Paper' and 'Milk', 'Grocery' and 'Milk','Detergents_Paper' and 'Grocery'
+- Box Plot identified highly skewed data and supported required to implement log scale to resolve 
+- Hierarchical Clustering: used dendrogram to identified optimal number of clusters 
+- PCA Explained Variance Ratio per Principal Component - indicated how much variance could be attributed to each principal component with PC1 and PC2 accouting for roughly 60% 
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+### Challenges
+- Outlier detection indicated likelihood of highly skewed data and implemented log scale in response
 
+### Future Goals
+- Explore additional future engineering possibilities to identify impact(s) on performance and outputs of unsupervised learning techniques
