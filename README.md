@@ -1,7 +1,7 @@
 # Machine Learning Project - Unsupervised Learning
 
 ### Goal
-Gain data insight and communicate these using appropriate visualizations.
+Gain data insights and communicate these using appropriate visualizations.
 
 ## Project Outcomes
 - Performed unsupervised learning techniques on a wholesale data dataset
@@ -18,14 +18,14 @@ Project involved:
     - opportunities for feature engineering, and 
     - handled outliers
 -	*Unsupervised learning*
-    - performed k-means clustering, hierarchical clustering, and PCA to identify patterns and group similar data points together
-    - determined optimal number of clusters
+    - performed k-means clustering, hierarchical clustering, and PCA to identify patterns and group similar data points together,
+    - determined optimal number of clusters, and
     - communicated insights gained through EDA/data visualization
 
 ### Results 
 - Pairplot indicated positive correlation between 'Fresh' and 'Milk', 'Detergents_Paper' and 'Milk', 'Grocery' and 'Milk', 'Detergents_Paper' and 'Grocery'
-- Box Plot identified highly skewed data and supported required to implement log scale to resolve 
-- Hierarchical Clustering - used dendrogram identifying optimal number of clusters 
+- Box Plot identified highly skewed data and identified reqiurement to implement log scale to resolve 
+- Hierarchical Clustering leveraged a dendrogram to identify optimal number of clusters 
 - PCA 'Explained Variance Ratio per Principal Component' indicated how much variance could be attributed to each principal component with PC1 and PC2 accounting for roughly 60% 
 
 ### Challenges
