@@ -23,10 +23,10 @@ Project involved:
     - communicated insights gained through EDA/data visualization
 
 ### Results 
-- Paiplot indicated positive correlation between 'Fresh' and 'Milk', 'Detergents_Paper' and 'Milk', 'Grocery' and 'Milk','Detergents_Paper' and 'Grocery'
+- Pairplot indicated positive correlation between 'Fresh' and 'Milk', 'Detergents_Paper' and 'Milk', 'Grocery' and 'Milk', 'Detergents_Paper' and 'Grocery'
 - Box Plot identified highly skewed data and supported required to implement log scale to resolve 
-- Hierarchical Clustering: used dendrogram to identified optimal number of clusters 
-- PCA Explained Variance Ratio per Principal Component - indicated how much variance could be attributed to each principal component with PC1 and PC2 accouting for roughly 60% 
+- Hierarchical Clustering - used dendrogram identifying optimal number of clusters 
+- PCA 'Explained Variance Ratio per Principal Component' indicated how much variance could be attributed to each principal component with PC1 and PC2 accounting for roughly 60% 
 
 ### Challenges
 - Outlier detection indicated likelihood of highly skewed data and implemented log scale in response
